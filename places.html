@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Favorite places</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+      <link rel="manifest" href="/site.webmanifest">
+    <style>
+      .card {
+        border-radius: 1em;
+        text-align: center;
+      }
+      .card:hover {
+        background-color: rgba(45, 178, 208, 0.1);
+      }
+      .card img {
+        border-radius: 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand p-0" href="index.html">
+          <img src="AmstrNl.png" alt="Amstr" width="90" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="places.html">Favorite places</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container my-5">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+        <div class="col">
+          <div class="card">
+            <img src="Vondel.jpg" class="card-img-top" alt="Some image" />
+            <div class="card-body">
+              <h5 class="card-title">Vondel park</h5>
+              <p class="card-text">
+                A 120 acre public city park in Amsterdam, was opened in 1865 and was originally called Nieuwe Park ("New Park"), but later renamed Vondelpark, in honor of the 17th century playwright Jost van den Vondel.  
+              </p>
+              <a href="https://en.wikipedia.org/wiki/Vondelpark" class="btn btn-primary" target="_blank">See more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="KNSM island.jpg" class="card-img-top" alt="Some image" />
+            <div class="card-body">
+              <h5 class="card-title">KNSM island</h5>
+              <p class="card-text">
+                A man-made island in the Eastern Docklands of Amsterdam. KNSM stands for the Koninklijke Nederlandsche Stoomboot-Maatschappij, the Royal Dutch Steamboat Shipping company which used to have its headquarters and its docks on the island. It is now a large residential area containing modern architecture with a mostly well-off population.
+              </p>
+              <a href="https://en.wikipedia.org/wiki/KNSM_Island" class="btn btn-primary" target="_blank" >See more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Tuinpark2.jpg" class="card-img-top" alt="Some image" />
+            <div class="card-body">
+              <h5 class="card-title">Tuin park</h5>
+              <p class="card-text">
+                A public garden, located right in the residantial buildings, are the quintessence of what the Dutch can do with a tiny piece of land if left undisterbed. There is a real park layout, well-groomed areas and an incredible number of diffrent plants.
+              </p>
+              <a href="https://www.nutengenoegen.amsterdam" class="btn btn-primary" target="_blank">See more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </body>
+</html>
